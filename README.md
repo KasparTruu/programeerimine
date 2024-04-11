@@ -1,1 +1,2 @@
-Andrusega tehtud pyhtoniga ül
+# Learning Pyhton
+exercises done with Pyhton
