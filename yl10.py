@@ -1,10 +1,14 @@
-nimi = imput("sisesta oma nimi: ")
+nimi = input("Sisesta oma nimi: ")
 print(f"Tere, {nimi}!")
-elukoht = imput("sisessta oma elukoht: ")
+
+elukoht = input("Sisesta oma elukoht: ")
 if elukoht.lower() == "saaremaa":
-    print (Tere, saarlane)
-    if age < 18:
-        print("sa oled liiga noor")
-    elif age == 18:
-        print("palju õnne, sa oled täisealine!")
-        else("sa võid juhtida")
+    print("Tere, saarlane!")
+
+vanus = int(input("Sisesta oma vanus: "))
+if vanus < 18:
+    print("Sa oled liiga noor, et autot juhtida.")
+elif vanus == 18:
+    print("Palju õnne, sa oled täisealine!")
+else:
+    print("Sa võid autot juhtida.")
