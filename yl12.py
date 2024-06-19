@@ -12,3 +12,4 @@ if "apple" in fruitlist:
     fruitlist.pop(1)
     print (fruitlist)
     fruitlist.remove
+
