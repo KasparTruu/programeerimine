@@ -1,2 +1,3 @@
-for i in range
-    result = 8 * i
+for number in range(5, 0, -1):
+    print(number)
+# Range funktsioon kasutatakse sageli korduslausete (nt for-tsüklite) puhul. Siin on mõned põhiaspektid range funktsiooni kohta:

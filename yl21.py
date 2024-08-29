@@ -15,3 +15,4 @@ while True:
     else:
         print("Õige arv! Arvuti mõtles välja arvu", arv)
         break
+    #break lõpetab while tsükli, kui kasutaja on arvanud õige arvu. Siin on, kuidas see töötab
